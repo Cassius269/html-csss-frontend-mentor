@@ -4,8 +4,19 @@
     margin: 0;
 }
 
+
+/* Intégration de la font locale */
+@font-face {
+  font-family: "Fightree";
+  src:
+    url("../fonts/static/Figtree-Medium.ttf"),
+
+}
+
+
 body {
     background-color: #F5D04E;
+    font-family: "Fightree";
 }
 
 main {
@@ -39,8 +50,8 @@ main {
 
 #articleAuthorParagraph {
     font-weight:  bold;
-    padding-top: 1rem
-
+    display: flex;
+    align-items: center;
 }
 
 #articleMainImage {
